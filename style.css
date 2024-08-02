@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajustez la valeur selon vos besoins */
+  }
+
+  #color-box {
+    width: 150px;  /* Ajustez la largeur selon vos besoins */
+    height: 150px; /* Ajustez la hauteur selon vos besoins */
+    background-color: black; /* Couleur d'arrière-plan par défaut */
+  }
+  #change-color-btn {
+    background-color: #2855a7; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px 20px; /* Rembourrage pour rendre le bouton plus grand et plus cliquable */
+    font-size: 16px; /* Taille de la police */
+    border-radius: 5px; /* Bordures arrondies */
+    cursor: pointer; /* Change le curseur pour indiquer qu'il est cliquable */
+    transition: background-color 0.3s ease; /* Effet de transition pour le changement de couleur */
+    margin: 15px; /* Marge pour espacer le bouton des autres éléments */
+  }
+  
+  #change-color-btn:hover {
+    background-color: #882145; /* Couleur de fond lors du survol */
+  }
